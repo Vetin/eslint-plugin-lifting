@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-lifting",
+  "version": "0.0.1",
+  "description": "Eslint rules for lifting up your code 🚀",
+  "main": "index.js",
+  "author": "Egor Miasniankin <egormyasnyankin@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^14 || ^16 || ^18"
+  },
+  "dependencies": {
+    "@typescript-eslint/utils": "5.28.0",
+    "eslint": "8.18.0",
+    "eslint-utils": "3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "4.7.4"
+  }
+}
