@@ -1,14 +1,14 @@
-const { argsDestructing, avoidTypeLiterals } = require('./rules');
-
 module.exports = {
   rules: {
-    'avoid-type-literals': avoidTypeLiterals,
-    'args-destructing': argsDestructing,
+    'avoid-type-literals': require('./rules/avoid-type-literals'),
+    'args-destructing': require('./rules/args-destructing'),
   },
   configs: {
     recommended: {
-      'avoid-type-literals': 'error',
-      'args-destructing': 'error',
+      rules: {
+        'lifting/avoid-type-literals': 'error',
+        'lifting/args-destructing': 'error',
+      },
     },
   },
 };

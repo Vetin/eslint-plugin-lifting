@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.0.3
+
+- Fix recommended config
+
 ## v0.0.2
 
 - Fix rules import

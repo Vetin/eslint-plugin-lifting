@@ -257,4 +257,4 @@ function conditionLifting(startNode, conditions) {
   return true;
 }
 
-module.exports = { avoidTypeLiterals };
+module.exports = avoidTypeLiterals;

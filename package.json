@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-lifting",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Eslint rules for lifting up your code 🚀",
   "main": "index.js",
   "author": "Egor Miasniankin <egormyasnyankin@gmail.com>",

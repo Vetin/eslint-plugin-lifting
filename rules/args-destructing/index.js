@@ -89,4 +89,4 @@ const isFn = node =>
 
 const DEFAULT_FN_ARG_NAME = 'payload';
 
-module.exports = { argsDestructing };
+module.exports = argsDestructing;
