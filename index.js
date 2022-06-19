@@ -1,4 +1,4 @@
-const { argsDestructing, avoidTypeLiterals } = require('./src');
+const { argsDestructing, avoidTypeLiterals } = require('./rules');
 
 module.exports = {
   rules: {
